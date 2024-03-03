@@ -1,0 +1,118 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+}
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper{
+  background: url(/img/IMG-20240219-WA0005.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content{
+  display: flex;
+  align-items: center;
+}
+.hero-content span{
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.747);
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+.hero-content h3{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 10px;
+}
+.projects{
+  min-height: 80vh;
+}
+.projects h1{
+  margin: 30px 0px 10px 0px ;
+}
+.img-container{
+ display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.img-container img{
+  height: 200px;
+  border: none;
+  width: 270px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.card h4{
+  color: rgba(128, 128, 128, 0.774);
+}
+.contact-box{
+  height: 55vh;
+  margin-top: 70px;
+}
+.contact-box h1{
+  margin: 20px 0px;
+}
+.contact-box p{
+  margin: 10px 0px;
+}
+.input-container input{
+  width: 100%;
+  margin: 7px 0px;
+  height: 30px;
+  font-size: 12px;
+  padding: 6px;
+}
+.btn2{
+  background-color: black;
+color: #fff;
+padding: 5px 12px;
+margin-top: 20px;
+border: none;
+cursor: pointer;
+}
+.map{
+  background: url(/img/IMG-20240219-WA0009.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+footer{
+  margin-top: 5px;
+  background-color: black;
+  color: #fff;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer a{
+  color: #fff;
+}
